@@ -83,7 +83,7 @@
 
     directive.$inject = ['$q', '$localStorage'];
 
-    angular.module('ngDropImage', [])
+    angular.module('ngDropImage', ['ngStorage'])
         .config(['$localStorageProvider', s => {
             s.setKeyPrefix('ng-drop-image-');
         }])

@@ -90,7 +90,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     directive.$inject = ['$q', '$localStorage'];
 
-    angular.module('ngDropImage', []).config(['$localStorageProvider', function (s) {
+    angular.module('ngDropImage', ['ngStorage']).config(['$localStorageProvider', function (s) {
         s.setKeyPrefix('ng-drop-image-');
     }]).directive('ngDropImage', directive);
 });
