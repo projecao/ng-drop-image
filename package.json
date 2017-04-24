@@ -12,9 +12,10 @@
   "keywords": ["drag", "drop", "image", "angular", "ng", "directive"],
   "author": "Antério Vieira <anteriovieira@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/projecao",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uni-projecao/angular-drop-image.git"
+    "url": "https://github.com/projecao/ng-drop-image.git"
   },
   "dependencies": {
     "ngstorage": "^0.3.11"
